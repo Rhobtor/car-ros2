@@ -1,0 +1,248 @@
+[0.000000] (-) TimerEvent: {}
+[0.000388] (car) JobQueued: {'identifier': 'car', 'dependencies': OrderedDict()}
+[0.000733] (car_cpp) JobQueued: {'identifier': 'car_cpp', 'dependencies': OrderedDict()}
+[0.001008] (car) JobStarted: {'identifier': 'car'}
+[0.065848] (car_cpp) JobStarted: {'identifier': 'car_cpp'}
+[0.098660] (-) TimerEvent: {}
+[0.199844] (-) TimerEvent: {}
+[0.300814] (-) TimerEvent: {}
+[0.401929] (-) TimerEvent: {}
+[0.420185] (car_cpp) JobProgress: {'identifier': 'car_cpp', 'progress': 'cmake'}
+[0.429077] (car_cpp) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/src/car_cpp', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car_cpp'], 'cwd': '/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rhobtor'), ('GIT_ASKPASS', '/home/rhobtor/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/rhobtor'), ('OLDPWD', '/home/rhobtor/codeInWindows/car/workspace/src'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b8e6ecad-a015-4ecd-b3ca-2ccb5a52ac11.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rhobtor/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rhobtor/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rhobtor'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/1001_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rhobtor/gems/bin:/home/rhobtor/gems/bin:/home/rhobtor/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/remote-cli:/home/rhobtor/.local/bin:/home/rhobtor/gems/bin:/home/rhobtor/gems/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/AutoFirma/AutoFirma:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/ZED SDK/dependencies/freeglut_2.8/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/glew-1.12.0/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/opencv_3.1.0/x64:/mnt/c/Program Files (x86)/ZED SDK/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/luism/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/luism/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/luism/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/luism/AppData/Roaming/npm:/mnt/c/Users/luism/AppData/Local/Pandoc/:/mnt/c/Users/luism/.dotnet/tools:/mnt/c/Users/luism/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/luism/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ab06d39d99.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GEM_HOME', '/home/rhobtor/gems'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car_cpp'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.502155] (-) TimerEvent: {}
+[0.602818] (-) TimerEvent: {}
+[0.703542] (-) TimerEvent: {}
+[0.804122] (-) TimerEvent: {}
+[0.872435] (car_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.904298] (-) TimerEvent: {}
+[1.005152] (-) TimerEvent: {}
+[1.106162] (-) TimerEvent: {}
+[1.206973] (-) TimerEvent: {}
+[1.307912] (-) TimerEvent: {}
+[1.408764] (-) TimerEvent: {}
+[1.509331] (-) TimerEvent: {}
+[1.609795] (-) TimerEvent: {}
+[1.644730] (car_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.709962] (-) TimerEvent: {}
+[1.745486] (car) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/car', 'build', '--build-base', '/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/build', 'install', '--record', '/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/install.log', '--install-scripts', '$base/lib/car', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/src/car', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rhobtor', 'GIT_ASKPASS': '/home/rhobtor/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/rhobtor', 'OLDPWD': '/home/rhobtor/codeInWindows/car/workspace/src', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b8e6ecad-a015-4ecd-b3ca-2ccb5a52ac11.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/rhobtor/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/rhobtor/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rhobtor', 'NAME': 'MSI', 'WSL_INTEROP': '/run/WSL/1001_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/rhobtor/gems/bin:/home/rhobtor/gems/bin:/home/rhobtor/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/remote-cli:/home/rhobtor/.local/bin:/home/rhobtor/gems/bin:/home/rhobtor/gems/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/AutoFirma/AutoFirma:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/ZED SDK/dependencies/freeglut_2.8/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/glew-1.12.0/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/opencv_3.1.0/x64:/mnt/c/Program Files (x86)/ZED SDK/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/luism/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/luism/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/luism/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/luism/AppData/Roaming/npm:/mnt/c/Users/luism/AppData/Local/Pandoc/:/mnt/c/Users/luism/.dotnet/tools:/mnt/c/Users/luism/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/luism/AppData/Local/Microsoft/WindowsApps:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ab06d39d99.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'GEM_HOME': '/home/rhobtor/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[1.810111] (-) TimerEvent: {}
+[1.910625] (-) TimerEvent: {}
+[2.011113] (-) TimerEvent: {}
+[2.092357] (car_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.111335] (-) TimerEvent: {}
+[2.212502] (-) TimerEvent: {}
+[2.313015] (-) TimerEvent: {}
+[2.413634] (-) TimerEvent: {}
+[2.449326] (car) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[2.450543] (car) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.471983] (car) StdoutLine: {'line': b'running egg_info\n'}
+[2.474401] (car) StdoutLine: {'line': b'creating ../../build/car/car.egg-info\n'}
+[2.477332] (car) StdoutLine: {'line': b'writing ../../build/car/car.egg-info/PKG-INFO\n'}
+[2.485631] (car) StdoutLine: {'line': b'writing dependency_links to ../../build/car/car.egg-info/dependency_links.txt\n'}
+[2.490628] (car) StdoutLine: {'line': b'writing entry points to ../../build/car/car.egg-info/entry_points.txt\n'}
+[2.494650] (car) StdoutLine: {'line': b'writing requirements to ../../build/car/car.egg-info/requires.txt\n'}
+[2.497691] (car) StdoutLine: {'line': b'writing top-level names to ../../build/car/car.egg-info/top_level.txt\n'}
+[2.503320] (car) StdoutLine: {'line': b"writing manifest file '../../build/car/car.egg-info/SOURCES.txt'\n"}
+[2.513792] (-) TimerEvent: {}
+[2.576509] (car) StdoutLine: {'line': b"reading manifest file '../../build/car/car.egg-info/SOURCES.txt'\n"}
+[2.614150] (-) TimerEvent: {}
+[2.641901] (car) StdoutLine: {'line': b"writing manifest file '../../build/car/car.egg-info/SOURCES.txt'\n"}
+[2.644625] (car) StdoutLine: {'line': b'running build\n'}
+[2.645407] (car) StdoutLine: {'line': b'running build_py\n'}
+[2.649064] (car) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/build\n'}
+[2.650394] (car) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/build/lib\n'}
+[2.652142] (car) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/build/lib/car\n'}
+[2.659642] (car) StdoutLine: {'line': b'copying car/__init__.py -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/build/lib/car\n'}
+[2.670617] (car) StdoutLine: {'line': b'running install\n'}
+[2.671490] (car) StdoutLine: {'line': b'running install_lib\n'}
+[2.674617] (car_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.690899] (car) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/lib/python3.10/site-packages/car\n'}
+[2.698033] (car_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.698997] (car_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.699911] (car_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.707429] (car) StdoutLine: {'line': b'copying /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/build/lib/car/__init__.py -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/lib/python3.10/site-packages/car\n'}
+[2.714297] (-) TimerEvent: {}
+[2.741430] (car) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/lib/python3.10/site-packages/car/__init__.py to __init__.cpython-310.pyc\n'}
+[2.754661] (car_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.774118] (car) StdoutLine: {'line': b'running install_data\n'}
+[2.781325] (car) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/ament_index\n'}
+[2.783360] (car) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/ament_index/resource_index\n'}
+[2.786076] (car) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/ament_index/resource_index/packages\n'}
+[2.798504] (car) StdoutLine: {'line': b'copying resource/car -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/ament_index/resource_index/packages\n'}
+[2.814564] (-) TimerEvent: {}
+[2.825774] (car) StdoutLine: {'line': b'copying package.xml -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car\n'}
+[2.847177] (car) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/launch\n'}
+[2.859353] (car) StdoutLine: {'line': b'copying launch/display.launch.py -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/launch\n'}
+[2.885726] (car) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/launch\n'}
+[2.909949] (car) StdoutLine: {'line': b'copying launch/gazebo_alone.launch.py -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/launch\n'}
+[2.914706] (-) TimerEvent: {}
+[2.935232] (car) StdoutLine: {'line': b'copying launch/gazebo_mountain.launch.py -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/launch\n'}
+[2.956812] (car) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/urdf\n'}
+[2.967151] (car) StdoutLine: {'line': b'copying urdf/camera.plugin.xacro -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/urdf\n'}
+[2.990744] (car) StdoutLine: {'line': b'copying urdf/car.gazebo -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/urdf\n'}
+[3.014026] (car) StdoutLine: {'line': b'copying urdf/car.plugin.xacro -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/urdf\n'}
+[3.014904] (-) TimerEvent: {}
+[3.040017] (car) StdoutLine: {'line': b'copying urdf/car.trans -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/urdf\n'}
+[3.064086] (car) StdoutLine: {'line': b'copying urdf/car.xacro -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/urdf\n'}
+[3.088570] (car) StdoutLine: {'line': b'copying urdf/depth.plugin.xacro -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/urdf\n'}
+[3.112284] (car) StdoutLine: {'line': b'copying urdf/materials.xacro -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/urdf\n'}
+[3.115021] (-) TimerEvent: {}
+[3.133298] (car) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes\n'}
+[3.143197] (car) StdoutLine: {'line': b'copying meshes/base_link.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes\n'}
+[3.167526] (car) StdoutLine: {'line': b'copying meshes/Camara_back_1.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes\n'}
+[3.193351] (car) StdoutLine: {'line': b'copying meshes/Camara_front_1.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes\n'}
+[3.215219] (-) TimerEvent: {}
+[3.216849] (car) StdoutLine: {'line': b'copying meshes/Camara_left_1.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes\n'}
+[3.241433] (car) StdoutLine: {'line': b'copying meshes/Camara_right_1.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes\n'}
+[3.265516] (car) StdoutLine: {'line': b'copying meshes/Laser_1.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes\n'}
+[3.290664] (car) StdoutLine: {'line': b'copying meshes/Wheel_back_left_1.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes\n'}
+[3.313733] (car) StdoutLine: {'line': b'copying meshes/Wheel_back_right_1.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes\n'}
+[3.315309] (-) TimerEvent: {}
+[3.338500] (car) StdoutLine: {'line': b'copying meshes/Wheel_front_left_1.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes\n'}
+[3.362310] (car) StdoutLine: {'line': b'copying meshes/Wheel_front_right_1.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes\n'}
+[3.383998] (car) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/config\n'}
+[3.394063] (car) StdoutLine: {'line': b'copying config/display.rviz -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/config\n'}
+[3.414306] (car) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/lib/car\n'}
+[3.415447] (-) TimerEvent: {}
+[3.417069] (car) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.436032] (car) StdoutLine: {'line': b'Copying ../../build/car/car.egg-info to /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/lib/python3.10/site-packages/car-0.0.0-py3.10.egg-info\n'}
+[3.451644] (car_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.475737] (car_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.476860] (car_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.477874] (car_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.515701] (-) TimerEvent: {}
+[3.542089] (car_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.615829] (-) TimerEvent: {}
+[3.692976] (car) StdoutLine: {'line': b'running install_scripts\n'}
+[3.696164] (car_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.715997] (-) TimerEvent: {}
+[3.767980] (car) StdoutLine: {'line': b'Installing keyboard script to /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/lib/car\n'}
+[3.783688] (car) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/install.log'\n"}
+[3.816466] (-) TimerEvent: {}
+[3.820093] (car) CommandEnded: {'returncode': 0}
+[3.901440] (car_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.916643] (-) TimerEvent: {}
+[4.017169] (-) TimerEvent: {}
+[4.117805] (-) TimerEvent: {}
+[4.136185] (car) JobEnded: {'identifier': 'car', 'rc': 0}
+[4.166455] (car_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.173045] (car_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.183263] (car_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.201235] (car_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.217954] (-) TimerEvent: {}
+[4.221190] (car_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.282211] (car_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.286639] (car_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.318153] (-) TimerEvent: {}
+[4.419123] (-) TimerEvent: {}
+[4.520318] (-) TimerEvent: {}
+[4.621492] (-) TimerEvent: {}
+[4.722786] (-) TimerEvent: {}
+[4.824067] (-) TimerEvent: {}
+[4.924905] (-) TimerEvent: {}
+[5.026099] (-) TimerEvent: {}
+[5.126818] (-) TimerEvent: {}
+[5.227935] (-) TimerEvent: {}
+[5.329057] (-) TimerEvent: {}
+[5.430167] (-) TimerEvent: {}
+[5.530990] (-) TimerEvent: {}
+[5.613293] (car_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.631204] (-) TimerEvent: {}
+[5.731916] (-) TimerEvent: {}
+[5.832578] (-) TimerEvent: {}
+[5.933775] (-) TimerEvent: {}
+[6.034894] (-) TimerEvent: {}
+[6.135731] (-) TimerEvent: {}
+[6.236174] (-) TimerEvent: {}
+[6.336881] (-) TimerEvent: {}
+[6.438060] (-) TimerEvent: {}
+[6.538554] (-) TimerEvent: {}
+[6.639608] (-) TimerEvent: {}
+[6.740363] (-) TimerEvent: {}
+[6.841250] (-) TimerEvent: {}
+[6.941962] (-) TimerEvent: {}
+[6.994129] (car_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.042227] (-) TimerEvent: {}
+[7.143200] (-) TimerEvent: {}
+[7.244358] (-) TimerEvent: {}
+[7.345424] (-) TimerEvent: {}
+[7.446290] (-) TimerEvent: {}
+[7.547137] (-) TimerEvent: {}
+[7.648322] (-) TimerEvent: {}
+[7.749630] (-) TimerEvent: {}
+[7.850101] (-) TimerEvent: {}
+[7.950781] (-) TimerEvent: {}
+[8.051933] (-) TimerEvent: {}
+[8.152908] (-) TimerEvent: {}
+[8.253398] (-) TimerEvent: {}
+[8.354116] (-) TimerEvent: {}
+[8.455361] (-) TimerEvent: {}
+[8.555939] (-) TimerEvent: {}
+[8.656629] (-) TimerEvent: {}
+[8.757799] (-) TimerEvent: {}
+[8.858320] (-) TimerEvent: {}
+[8.959119] (-) TimerEvent: {}
+[9.060333] (-) TimerEvent: {}
+[9.161493] (-) TimerEvent: {}
+[9.262669] (-) TimerEvent: {}
+[9.363867] (-) TimerEvent: {}
+[9.465007] (-) TimerEvent: {}
+[9.515695] (car_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.558022] (car_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.565150] (-) TimerEvent: {}
+[9.665933] (-) TimerEvent: {}
+[9.766537] (-) TimerEvent: {}
+[9.867135] (-) TimerEvent: {}
+[9.967597] (-) TimerEvent: {}
+[10.068078] (-) TimerEvent: {}
+[10.086875] (car_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.095664] (car_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.168228] (-) TimerEvent: {}
+[10.268754] (-) TimerEvent: {}
+[10.369198] (-) TimerEvent: {}
+[10.469632] (-) TimerEvent: {}
+[10.570182] (-) TimerEvent: {}
+[10.628401] (car_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.633875] (car_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.670262] (-) TimerEvent: {}
+[10.706483] (car_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[10.770303] (-) TimerEvent: {}
+[10.870871] (-) TimerEvent: {}
+[10.971385] (-) TimerEvent: {}
+[11.071803] (-) TimerEvent: {}
+[11.172279] (-) TimerEvent: {}
+[11.196499] (car_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.197221] (car_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[11.197839] (car_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.269821] (car_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.272328] (-) TimerEvent: {}
+[11.372694] (-) TimerEvent: {}
+[11.473216] (-) TimerEvent: {}
+[11.486219] (car_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.487359] (car_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.517521] (car_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.573334] (-) TimerEvent: {}
+[11.628621] (car_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.673446] (-) TimerEvent: {}
+[11.773894] (-) TimerEvent: {}
+[11.874500] (-) TimerEvent: {}
+[11.933072] (car_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[11.974617] (-) TimerEvent: {}
+[12.008843] (car_cpp) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car_cpp\n'}
+[12.017063] (car_cpp) CommandEnded: {'returncode': 0}
+[12.021110] (car_cpp) JobProgress: {'identifier': 'car_cpp', 'progress': 'build'}
+[12.024982] (car_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car_cpp', '--', '-j12', '-l12'], 'cwd': '/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rhobtor'), ('GIT_ASKPASS', '/home/rhobtor/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/rhobtor'), ('OLDPWD', '/home/rhobtor/codeInWindows/car/workspace/src'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b8e6ecad-a015-4ecd-b3ca-2ccb5a52ac11.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rhobtor/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rhobtor/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rhobtor'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/1001_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rhobtor/gems/bin:/home/rhobtor/gems/bin:/home/rhobtor/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/remote-cli:/home/rhobtor/.local/bin:/home/rhobtor/gems/bin:/home/rhobtor/gems/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/AutoFirma/AutoFirma:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/ZED SDK/dependencies/freeglut_2.8/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/glew-1.12.0/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/opencv_3.1.0/x64:/mnt/c/Program Files (x86)/ZED SDK/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/luism/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/luism/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/luism/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/luism/AppData/Roaming/npm:/mnt/c/Users/luism/AppData/Local/Pandoc/:/mnt/c/Users/luism/.dotnet/tools:/mnt/c/Users/luism/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/luism/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ab06d39d99.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GEM_HOME', '/home/rhobtor/gems'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car_cpp'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.074765] (-) TimerEvent: {}
+[12.173703] (car_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/test_node.dir/src/test_node.cpp.o\x1b[0m\n'}
+[12.174871] (-) TimerEvent: {}
+[12.203813] (car_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/src/car_cpp/src/test_node.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/rclcpp.hpp: No such file or directory\n'}
+[12.204704] (car_cpp) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"rclcpp/rclcpp.hpp"\x1b[m\x1b[K\n'}
+[12.205513] (car_cpp) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.206147] (car_cpp) StderrLine: {'line': b'compilation terminated.\n'}
+[12.206803] (car_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/test_node.cpp.o] Error 1\n'}
+[12.207571] (car_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test_node.dir/all] Error 2\n'}
+[12.208267] (car_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.209464] (car_cpp) CommandEnded: {'returncode': 2}
+[12.274978] (-) TimerEvent: {}
+[12.336938] (car_cpp) JobEnded: {'identifier': 'car_cpp', 'rc': 2}
+[12.348978] (-) EventReactorShutdown: {}

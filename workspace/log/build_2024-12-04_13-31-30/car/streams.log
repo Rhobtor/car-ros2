@@ -1,0 +1,63 @@
+[1.754s] Invoking command in '/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/src/car': PYTHONPATH=/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/car build --build-base /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/build install --record /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/install.log --install-scripts $base/lib/car --single-version-externally-managed install_data
+[2.449s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.450s]   warnings.warn(
+[2.471s] running egg_info
+[2.474s] creating ../../build/car/car.egg-info
+[2.477s] writing ../../build/car/car.egg-info/PKG-INFO
+[2.485s] writing dependency_links to ../../build/car/car.egg-info/dependency_links.txt
+[2.490s] writing entry points to ../../build/car/car.egg-info/entry_points.txt
+[2.494s] writing requirements to ../../build/car/car.egg-info/requires.txt
+[2.497s] writing top-level names to ../../build/car/car.egg-info/top_level.txt
+[2.503s] writing manifest file '../../build/car/car.egg-info/SOURCES.txt'
+[2.576s] reading manifest file '../../build/car/car.egg-info/SOURCES.txt'
+[2.641s] writing manifest file '../../build/car/car.egg-info/SOURCES.txt'
+[2.644s] running build
+[2.645s] running build_py
+[2.648s] creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/build
+[2.650s] creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/build/lib
+[2.651s] creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/build/lib/car
+[2.659s] copying car/__init__.py -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/build/lib/car
+[2.670s] running install
+[2.671s] running install_lib
+[2.690s] creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/lib/python3.10/site-packages/car
+[2.707s] copying /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/build/lib/car/__init__.py -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/lib/python3.10/site-packages/car
+[2.741s] byte-compiling /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/lib/python3.10/site-packages/car/__init__.py to __init__.cpython-310.pyc
+[2.773s] running install_data
+[2.781s] creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/ament_index
+[2.783s] creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/ament_index/resource_index
+[2.786s] creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/ament_index/resource_index/packages
+[2.798s] copying resource/car -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/ament_index/resource_index/packages
+[2.825s] copying package.xml -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car
+[2.847s] creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/launch
+[2.859s] copying launch/display.launch.py -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/launch
+[2.885s] copying launch/gazebo.launch.py -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/launch
+[2.909s] copying launch/gazebo_alone.launch.py -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/launch
+[2.935s] copying launch/gazebo_mountain.launch.py -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/launch
+[2.956s] creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/urdf
+[2.967s] copying urdf/camera.plugin.xacro -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/urdf
+[2.990s] copying urdf/car.gazebo -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/urdf
+[3.013s] copying urdf/car.plugin.xacro -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/urdf
+[3.039s] copying urdf/car.trans -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/urdf
+[3.063s] copying urdf/car.xacro -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/urdf
+[3.088s] copying urdf/depth.plugin.xacro -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/urdf
+[3.112s] copying urdf/materials.xacro -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/urdf
+[3.133s] creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes
+[3.143s] copying meshes/base_link.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes
+[3.167s] copying meshes/Camara_back_1.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes
+[3.193s] copying meshes/Camara_front_1.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes
+[3.216s] copying meshes/Camara_left_1.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes
+[3.241s] copying meshes/Camara_right_1.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes
+[3.265s] copying meshes/Laser_1.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes
+[3.290s] copying meshes/Wheel_back_left_1.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes
+[3.313s] copying meshes/Wheel_back_right_1.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes
+[3.338s] copying meshes/Wheel_front_left_1.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes
+[3.362s] copying meshes/Wheel_front_right_1.stl -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/meshes
+[3.383s] creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/config
+[3.393s] copying config/display.rviz -> /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/share/car/config
+[3.414s] creating /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/lib/car
+[3.416s] running install_egg_info
+[3.435s] Copying ../../build/car/car.egg-info to /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/lib/python3.10/site-packages/car-0.0.0-py3.10.egg-info
+[3.693s] running install_scripts
+[3.767s] Installing keyboard script to /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/lib/car
+[3.783s] writing list of installed files to '/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/install.log'
+[3.820s] Invoked command in '/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/src/car' returned '0': PYTHONPATH=/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/luism/Documents/Ubuntu/car/workspace/install/car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/car build --build-base /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/build install --record /mnt/c/Users/luism/Documents/Ubuntu/car/workspace/build/car/install.log --install-scripts $base/lib/car --single-version-externally-managed install_data
